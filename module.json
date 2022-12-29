@@ -1,0 +1,141 @@
+{
+  "id": "dnd5e-srd",
+  "title": "DnD5e SRD 5.1",
+  "description": "Content for the dnd5e system from the SRD5.1.",
+  "version": "1.0.4",
+  "compatibility": {
+    "minimum": 10,
+    "verified": 10
+  },
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "compatibility": {
+        "minimum": "2.1.0"
+      }
+    }]
+  },
+  "packs": [
+    {
+      "name": "heroes",
+      "label": "Starter Heroes",
+      "system": "dnd5e",
+      "path": "packs/heroes.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "monsters",
+      "label": "Monsters (SRD)",
+      "system": "dnd5e",
+      "path": "packs/monsters.db",
+      "type": "Actor",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "items",
+      "label": "Items (SRD)",
+      "system": "dnd5e",
+      "path": "packs/items.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "tradegoods",
+      "label": "Trade Goods (SRD)",
+      "system": "dnd5e",
+      "path": "packs/tradegoods.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "spells",
+      "label": "Spells (SRD)",
+      "system": "dnd5e",
+      "path": "packs/spells.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "Backgrounds (SRD)",
+      "system": "dnd5e",
+      "path": "packs/backgrounds.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "Classes (SRD)",
+      "system": "dnd5e",
+      "path": "packs/classes.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "subclasses",
+      "label": "Subclasses (SRD)",
+      "system": "dnd5e",
+      "path": "packs/subclasses.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "classfeatures",
+      "label": "Class Features (SRD)",
+      "system": "dnd5e",
+      "path": "packs/classfeatures.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "races",
+      "label": "Racial Features (SRD)",
+      "system": "dnd5e",
+      "path": "packs/races.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "monsterfeatures",
+      "label": "Monster Features (SRD)",
+      "system": "dnd5e",
+      "path": "packs/monsterfeatures.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "rules",
+      "label": "Rules (SRD)",
+      "system": "dnd5e",
+      "path": "packs/rules.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "tables",
+      "label": "Tables (SRD)",
+      "system": "dnd5e",
+      "path": "packs/tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/foundryvtt/dnd5e-srd",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e-srd/main/module.json",
+  "download": "https://github.com/foundryvtt/dnd5e-srd/releases/download/release-1.0.4/dnd5e-srd-release-1.0.4.zip",
+  "license": "LICENSE.txt"
+}
